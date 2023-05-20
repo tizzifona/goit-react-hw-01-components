@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/tizzifona/goit-react-hw-01-components/static/css/main.3b0b725b.css",
-    "main.js": "/tizzifona/goit-react-hw-01-components/static/js/main.ff610b6b.js",
-    "index.html": "/tizzifona/goit-react-hw-01-components/index.html",
-    "main.3b0b725b.css.map": "/tizzifona/goit-react-hw-01-components/static/css/main.3b0b725b.css.map",
-    "main.ff610b6b.js.map": "/tizzifona/goit-react-hw-01-components/static/js/main.ff610b6b.js.map"
+    "main.css": "/goit-react-hw-01-components/static/css/main.3b0b725b.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.ff610b6b.js",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.3b0b725b.css.map": "/goit-react-hw-01-components/static/css/main.3b0b725b.css.map",
+    "main.ff610b6b.js.map": "/goit-react-hw-01-components/static/js/main.ff610b6b.js.map"
   },
   "entrypoints": [
     "static/css/main.3b0b725b.css",
