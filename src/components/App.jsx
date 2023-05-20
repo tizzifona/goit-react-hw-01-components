@@ -1,16 +1,27 @@
+import SocialProfile from './SocialProfile/SocialProfile';
+import Statistic from './Statistic/Statistic';
+import FriendList from './FriendList/FriendList';
+import TransactionHistory from './TransactionHistory/TransactionHistory';
+import user from '../data/user.json';
+import data from '../data/data.json';
+import friends from '../data/friends.json';
+import transactions from '../data/transactions.json';
+
+import css from './App.module.css';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div className={css.mainDiv}>
+      <SocialProfile
+        username={user.username}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats}
+      />
+      <Statistic title="Upload stats" stats={data} />
+      <FriendList friends={friends} />
+      <TransactionHistory transactions={transactions}/>
     </div>
   );
 };

@@ -1,0 +1,72 @@
+.card {
+  border: #0053BF 2px solid;
+  font-family: Roboto, serif;
+  min-width: 350px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card p {
+  margin: 5px;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+
+.username {
+font-weight: bold;
+  background: linear-gradient(to right, #fda085, #0053BF);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.tag {
+  font-weight: bold;
+  font-size: 30px;
+  color: #0053BF;
+}
+
+.location {
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 30px;
+  list-style-type: none;
+  background-color: #E1E5EF;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.quantity {
+  font-weight: bold;
+  font-size: 20px;
+  background: linear-gradient(to right, #fda085, #0053BF);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
